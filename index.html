@@ -34,10 +34,10 @@
     href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Marcellus&family=Jost:wght@200;300;400;500&family=Noto+Sans+Malayalam:wght@300;400;500&display=swap">
 
   <!-- Critical media only: cover, intro video, hero -->
-  <link rel="preload" as="image" href="assets/images/cover/cover.png" fetchpriority="high">
+  <link rel="preload" as="image" href="assets/images/cover/cover.jpg" fetchpriority="high">
   <link rel="preload" as="video" href="vedio.mp4" type="video/mp4">
   <link rel="preload" as="audio" href="assets/audio/music.mp3" type="audio/mpeg">
-  <link rel="preload" as="image" href="hero.png">
+  <link rel="preload" as="image" href="hero.jpg">
 
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/scenes.css">
@@ -144,7 +144,7 @@
      ============================================================ -->
   <section id="landing" class="scene--screen" aria-label="Wedding invitation cover">
     <div class="landing-media">
-      <img id="coverImg" class="cover-img section-bg" src="open.png"
+      <img id="coverImg" class="cover-img section-bg" src="open.jpg"
         data-fallbacks="assets/images/cover/cover.webp,assets/images/cover/cover.jpg" alt="" decoding="async"
         fetchpriority="high">
       <div class="cover-fallback" aria-hidden="true"></div>
@@ -219,7 +219,7 @@
     <!-- Image fills the whole screen; content sits in that image's safe centre -->
     <section id="hero" class="scene scene--screen scene--hero loaded text-ready" aria-busy="false">
       <picture class="section-bg">
-        <img id="heroImg" class="section-bg" src="hero.png" data-candidates="hero.png"
+        <img id="heroImg" class="section-bg" src="hero.jpg" data-candidates="hero.jpg"
           alt="Zameel Mohammed &amp; Asmiya Sherin C. T" width="1080" height="1920" decoding="async" fetchpriority="high">
       </picture>
 
@@ -456,8 +456,8 @@
         <div class="couple-grid">
           <article class="person reveal" data-delay="1">
             <div class="portrait">
-              <img class="portrait-img" loading="lazy" decoding="async" src="assets/images/gallery/Groom.pjpeg"
-                data-fallbacks="assets/images/gallery/groom.jpeg,assets/images/gallery/groom.jpg"
+              <img class="portrait-img" loading="lazy" decoding="async" src="assets/images/gallery/Groom.jpeg"
+                data-fallbacks="assets/images/gallery/Groom.jpg,assets/images/gallery/groom.jpeg,assets/images/gallery/groom.jpg"
                 data-placeholder="Groom Photo" alt="Portrait of Zameel Mohammed">
               <span class="portrait-ring" aria-hidden="true"></span>
             </div>

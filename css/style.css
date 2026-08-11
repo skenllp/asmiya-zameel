@@ -20,11 +20,11 @@
 
   /* ---- Type ---- */
   --f-heading: 'Cormorant Garamond', serif;
-  --f-names: 'Playfair Display', serif;
+  --f-names: 'Cormorant Garamond', serif;
   /* High-contrast Didone used only for the couple's names (& the ampersand
      that sits between them) — "Bodoni 72" first for systems that have it
      installed, falling back to the closest legal web-font match. */
-  --f-bodoni: 'Bodoni 72', 'Bodoni Moda', 'Bodoni MT', serif;
+  --f-bodoni: 'Cormorant Garamond', serif;
   --f-swash: 'Bonheur Royale', cursive;
   --f-body: 'Poppins', sans-serif;
   --f-arabic: 'Amiri', serif;

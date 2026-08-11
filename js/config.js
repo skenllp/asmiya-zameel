@@ -50,8 +50,8 @@ window.WEDDING_CONFIG = {
   wedding: {
     dateISO: "2026-08-29T10:00:00+05:30",
     dateDisplay: "29 August 2026",
-    dayDisplay: "Sunday",
-    hijriDate: "10 Rabi' ul-Awwal 1448 AH",
+    dayDisplay: "Saturday",
+    hijriDate: "16 Rabi' ul-Awwal 1448 AH",
     timeDisplay: "10:00 AM",
     venueName: "Palm Convention Centre Pulamanthole",
     venueCity: "Malappuram",
